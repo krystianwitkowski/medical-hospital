@@ -1,0 +1,30 @@
+.btn{
+--btn--BgColor: var(--global--blue--Color);
+--btn--Focus: var(--global--blue--Color);
+font-family: 'Lato', sans-serif;
+font-size: rem(16);
+color: #ffffff;
+border-radius: rem(50);
+box-shadow: -3.508px 11.476px 40px 0px rgba(0, 1, 1, 0.2);
+background: var(--btn--BgColor, #0087be);
+transition: all 0.25s ease;
+
+  &:focus{
+  box-shadow: 0px 0px 12px var(--btn--Focus);
+  }
+}
+
+.btn--readmore{
+height: rem(35);
+width: rem(140);
+}
+
+.btn--submit{
+height: rem(35);
+width: rem(125);
+font-size: rem(14);
+}
+
+button::-moz-focus-inner {
+border: 0;
+}

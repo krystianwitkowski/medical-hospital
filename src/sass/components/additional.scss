@@ -1,0 +1,40 @@
+.text-uppercase{
+text-transform: uppercase;
+}
+
+.mobile-menu{
+height: em(250) !important;
+}
+
+.header-fixed--active{
+top: em(-53.5) !important;
+}
+
+.active{
+--active--Color: var(--global--navActive--Color);
+color: var(--active--Color, #262626);
+}
+
+.about-item-header--active{
+--about-item-header--active--BgColor: var(--global--blue--Color);
+background: var(--about-item-header--active--BgColor, #0087be);
+
+  .about-item-title{
+  color: #ffffff;
+  }
+}
+
+.text-hidden{
+height:0;
+padding:0 !important;
+}
+
+.border{
+width: em(41.5);
+height: em(3);
+display: block;
+background: #ffffff;
+margin: 0 auto;
+margin-top: em(12.5);
+margin-bottom: em(12.5);
+}

@@ -1,0 +1,53 @@
+.services{
+color: #ffffff;
+}
+
+.wrapper--services{
+max-width: initial;
+width:initial;
+}
+
+.services-box{
+text-align: center;
+margin: 0 auto;
+padding: em(35) 0;
+width: 100%;
+
+  &__title{
+  color: inherit;
+  }
+
+  &__text{
+  color: inherit;
+  padding-top: rem(15);
+  }
+
+  &:nth-child(1){
+  background-color: #43b1d2;
+  }
+
+  &:nth-child(2){
+  background-color: #3fb6c6;
+  }
+
+  &:nth-child(3){
+  background-color: #3cbbbb;
+  }
+
+  &:nth-child(4){
+  background-color: #37c3a8;
+  }
+}
+
+.services-box-content{
+padding-bottom: em(12.5);
+}
+
+.wrapper--services-box{
+max-width: rem(300)
+}
+
+.services-box-content{
+display: flex;
+justify-content: center;
+}

@@ -1,0 +1,56 @@
+/* HELPERS - Base variables, mixins or tools SASS
+========================================================================== */
+
+@import 'helpers/global-variables.scss';
+@import 'helpers/mixins.scss';
+
+
+/* BASE - Default settings
+========================================================================== */
+
+@import 'base/reset.scss';
+@import 'base/fonts.scss';
+@import 'base/typography.scss';
+@import 'base/settings.scss';
+
+
+/* LAYOUT - Modules as header, footer and other sections
+========================================================================== */
+
+@import 'layout/header.scss';
+@import 'layout/services.scss';
+@import 'layout/choose.scss';
+@import 'layout/features.scss';
+@import 'layout/works.scss';
+@import 'layout/gallery.scss';
+@import 'layout/team.scss';
+@import 'layout/consultation.scss';
+@import 'layout/info.scss';
+@import 'layout/footer.scss';
+
+
+/* COMPONENTS - Re-usable site elements.
+========================================================================== */
+
+@import 'components/navigation.scss';
+@import 'components/hamburger.scss';
+@import 'components/additional.scss';
+@import 'components/buttons.scss';
+
+
+/* RESPONSIVE - RWD system
+========================================================================== */
+
+@import 'responsive/minWidth600.scss';
+@import 'responsive/minWidth900.scss';
+@import 'responsive/minWidth1200.scss';
+
+/* PAGES - Modules as header, footer and other sections
+========================================================================== */
+
+
+
+
+/* VENDORS - Frameworks, libraries SCSS files
+
+========================================================================== */

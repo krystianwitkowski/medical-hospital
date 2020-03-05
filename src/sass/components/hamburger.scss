@@ -1,0 +1,34 @@
+.hamburger{
+margin-left: auto;
+width: rem(33);
+  &__line{
+  --hamburger__line--BgColor: var(--global--navActive--Color);  
+  width: rem(33);
+  height: rem(2);
+  background-color: var(--hamburger__line--BgColor, #262626);
+  display: block;
+  transition: all 0.3s ease-in-out;
+  }
+
+  &__line:nth-child(1n+2){
+  margin-top: 7px;
+  }
+}
+
+.hamburger:hover{
+  cursor: pointer;
+}
+
+.is-active{
+  .hamburger__line:nth-child(2){
+   opacity: 0;
+ }
+
+ .hamburger__line:nth-child(1){
+   transform: translateY(5px) rotate(45deg);
+ }
+
+ .hamburger__line:nth-child(3){
+   transform: translateY(-13px) rotate(-45deg);
+ }
+}

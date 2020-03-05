@@ -1,0 +1,81 @@
+h1,h2,h3,h4,h5,h6{
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+color: inherit;
+line-height: 1.2;
+}
+
+h1{
+color: #474747;
+}
+
+h2{
+--h2--Color: var(--global--heading--Color);
+color: var(--h2--Color);
+font-size: em(22.5);
+}
+
+h3{
+font-size: rem(17);
+}
+
+img{
+display: block;
+max-width: 100%;
+}
+
+a{
+text-decoration: none;
+color: inherit;
+outline: 0;
+}
+
+ul,li,a,span{
+line-height: 1.2;
+}
+
+p{
+--p--Color: var(--global--font--Color);
+font-size: rem(16);
+color: var(--p--Color, #6a6a6a);
+line-height: 1.875;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+}
+
+span{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+color: inherit;
+}
+
+input, textarea{
+border: none;
+background: transparent;
+outline: 0;
+color: inherit;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: rem(16);
+border-bottom: 1px solid #5f5f5f;
+}
+
+label{
+display: flex;
+}
+
+textarea{
+resize: none;
+}
+
+button{
+border:none;
+outline:0;
+display: block;
+cursor: pointer;
+}
+
+figcaption{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+}

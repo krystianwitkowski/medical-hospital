@@ -1,0 +1,21 @@
+.consultation{
+background: #e2e2e2;
+}
+
+.wrapper--consultation{
+max-width: rem(1113);
+padding: em(35) 0;
+
+  .header-consultation{
+  text-align: center;
+  }
+
+  .btn--readmore{
+  margin: em(30) auto auto;
+  background: #0087be;
+  }
+}
+
+.header-consultation__title{
+font-size: em(17);
+}
